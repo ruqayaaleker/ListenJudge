@@ -70,7 +70,7 @@ buyButtons.forEach(function (button){
         const productPrice=product.querySelector("p").textContent;
 
         //Popup if added a product in the cart
-        alert(productName+"has been added to your cart!");
+        alert(productName+" has been added to your cart!");
         
         if(emptyMsg){
             emptyMsg.style.display="none";
