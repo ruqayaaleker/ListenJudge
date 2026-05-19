@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen & Judge</title>
+    <link rel="icon" href="images/logo_favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <!-- Header -->
+     <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo_header_logo.png" alt="logo"></a>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="howtoplay.html">How to Play</a></li>
+            <li><a href="buy.html">Buy it Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- cart -->
+         <div class="cart">
+           <img src="images/cart.png"> <span id="cart-count">0</span> 
+         </div>
+     </header>
+
+        <!-- cart panel -->
+         <div class="cart-panel" id="cartPanel">
+            <div class="cart-header">
+            <h3>Your Cart</h3>
+            <!-- close btn -->
+             <button class="close-cart">x</button>
+            </div>
+            <p id="empty-msg">No items yet</p>
+            <button class="checkout-btn" id="checkoutBtn">Buy Now!</button>
+         </div>
+
+         <!-- Main -->
+          <main>
+            <h2 class="section-title">Share with us some cases:</h2>
+            <section class="contact-section">
+                <!-- Form -->
+                 <div class="contact-form">
+                    <label>Your Name:</label>
+                    <input type="text" id="name" required>
+                    <p id="name-error"></p>
+                    <br>
+                    <label>Your Email:</label>
+                    <input type="email" id="email" required>
+                    <p id="email-error"></p>
+                    <br>
+                    <label>Your Case Suggestions:</label>
+                    <textarea id="suggestion" required></textarea>
+                    <p id="suggestion-error"></p>
+                    <br>
+                    <button class="btn submit-btn">Submit</button>
+                    <p id="success-message"></p>
+                 </div>
+
+                 <!-- Line -->
+                  <div class="divider"></div>
+
+                  <!-- Contact information -->
+                   <div class="contact-info">
+                    <h2>Contact Us:</h2>
+                    <br>
+                    <a href="https://instagram.com/listenjudge.bh" target="_blank">
+                        @listenjudge.bh
+                    </a>
+                    <br>
+                    <a href="tel:+97333844775"> +973 33844775</a>
+                    <br>
+                    <a href="mailto:202302931@student.polytechnic.bh">
+                        202302931@student.polytechnic.bh
+                    </a>
+                   </div>
+            </section>
+          </main>
+              <!-- Footer -->
+     <footer>
+            <p>© 2026 Listen & Judge</p>
+            <p>Contact Us:<a href="https://instagram.com/listenjudge.bh" target="_blank">
+                @listenjudge
+            </a>
+            </p>
+     </footer>
+     <script src="script.js"></script>
+</body>
+</html>
